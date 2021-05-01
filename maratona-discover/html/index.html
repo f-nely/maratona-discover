@@ -3,47 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <title>Guia Estelar de HTML</title>
-
-    <style>
-      p {
-        font-family: Verdana;
-        font-weight: bold;
-      }
-      li {
-        list-style-type: none;
-      }
-      a {
-        text-decoration: none;
-        color: rgb(126, 108, 63);
-        font-family: Verdana;
-      }
-
-      a:hover {
-        color: cadetblue;
-      }
-
-      img {
-        width: 400px;
-      }
-    </style>
   </head>
   <body>
-    <!-- 
-      Hyperlinks - Elemento Âncora: <a>
-    -->
+    <table>
 
-    <p>Encontre-me:</p>
+        <caption>Pessoas por idade</caption>
+        <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+            </tr>
+        </thead>
 
-    <ul>
-      <li><a href="https://app.rocketseat.com.br/" target="_blank">Website</a></li>
-      <li><a href="mailto:mayk@rocketseat.com.br">Email</a></li>
-      <li><a href="tel:+5511998887766">Telefone</a></li>
-    </ul>
+        <tbody>
+            <tr>
+                <td>Mayk</td>
+                <td>35</td>
+            </tr>
 
-    <a href="http://google.com" title="Ir para Google">
-        <h1>Google</h1>
-        <img src="https://source.unsplash.com/random" alt="">
-    </a>
+            <tr>
+                <td>Diego</td>
+                <td>25</td>
+            </tr>
+        </tbody>
 
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>2 Pessoas</td>
+            </tr>
+        </tfoot>
+    </table>
   </body>
 </html>
