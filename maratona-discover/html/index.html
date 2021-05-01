@@ -3,20 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <title>Guia Estelar de HTML</title>
+
+    <style>
+      p {
+        font-family: Verdana;
+        font-weight: bold;
+      }
+      li {
+        list-style-type: none;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(126, 108, 63);
+        font-family: Verdana;
+      }
+
+      a:hover {
+        color: cadetblue;
+      }
+    </style>
   </head>
   <body>
     <!-- 
-      Elementos genéricos
-
-      * <div>
-      * <span>
+      Hyperlinks - Elemento Âncora: <a>
     -->
 
-    <div class="cart">
-      Um produto
-    </div>
+    <p>Encontre-me:</p>
 
-    <span>Outro texto</span>
+    <ul>
+      <li><a href="https://app.rocketseat.com.br/" target="_blank">Website</a></li>
+      <li><a href="mailto:mayk@rocketseat.com.br">Email</a></li>
+      <li><a href="tel:+5511998887766">Telefone</a></li>
+    </ul>
+
+    <a href="http://google.com" title="Ir para Google">
+        <h1>Google</h1>
+        <img src="https://source.unsplash.com/random" alt="">
+    </a>
 
   </body>
 </html>
