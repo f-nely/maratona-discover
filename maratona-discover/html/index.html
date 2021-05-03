@@ -4,37 +4,60 @@
 <head>
   <meta charset="UTF-8" />
   <title>Guia Estelar de HTML</title>
+
+  <style>
+      table, th, td {
+        border: 1px solid #CCC;
+        border-collapse: collapse;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(155, 23, 23);
+      }
+  </style>
 </head>
 
 <body>
   <table>
 
-    <caption>Pessoas por idade</caption>
+    <caption>Produzidos x Vendidos por Loja</caption>
+
+    <colgroup>
+        <col span="1" style="background-color: rgb(224, 215, 133);">
+        <col span="2" style="background-color: rgb(128, 226, 141);">
+        <col span="2" style="background-color: lightblue;">
+    </colgroup>
+    
     <thead>
-      <tr>
-        <th>Nome</th>
-        <th>Idade</th>
-      </tr>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Afonso Pena</th>
+            <th colspan="2" scope="colgroup">Antônia Pereira</th>
+        </tr>
+
+        <tr>
+          <th scope="col">Produzidos</th>
+          <th scope="col">Vendidos</th>
+          <th scope="col">Produzidos</th>
+          <th scope="col">Vendidos</th>
+        </tr>
     </thead>
 
     <tbody>
-      <tr>
-        <td>Mayk</td>
-        <td>35</td>
-      </tr>
+        <tr>
+          <th scope="row">Vassouras</th>
+          <td>50</td>
+          <td>30</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
 
-      <tr>
-        <td>Diego</td>
-        <td>25</td>
-      </tr>
+        <tr>
+          <th scope="row">Baldes</th>
+          <td>10</td>
+          <td>10</td>
+          <td>30</td>
+          <td>25</td>
+        </tr>
     </tbody>
-
-    <tfoot>
-      <tr>
-        <td>Total</td>
-        <td>2 Pessoas</td>
-      </tr>
-    </tfoot>
   </table>
 </body>
 
