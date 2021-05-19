@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulários de outro planeta</title>
+</head>
+
+<body>
+    <form method="GET" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <label for="email" class="label">Email</label>
+            <input type="email" name="email" id="email" value="nelynely@email.com" multiple class="input">
+
+            <label for="senha" class="label">Senha</label>
+            <input type="password" name="senha" id="senha" minlength="4" maxlength="8" size=""
+                title="Coloque no mínimo 4 caracter e no máximo 8" inputmode="numeric" autocomplete="off" class="input">
+
+            <label for="file" class="label file">Arquivo</label>
+            <input type="file" name="file" id="file" accept="image/*" multiple>
+
+            <label for="subscribe">Concordo</label>
+            <input type="checkbox" name="subscribe" id="subscribe">
+
+            <button type="submit" class="btn">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
