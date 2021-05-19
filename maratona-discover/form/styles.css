@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Newsreader', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin-top: 40px;
+    width: 205px;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file {
+    padding: 6px 6px;
+    width: 140px;
+    background-color: #333;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    margin-top: 10px;
+}
