@@ -18,3 +18,11 @@ div {
 .paragrafo2 {
     font-size: 2rem;
 }
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-image: url("http://source.unsplash.com/random");
+    background-repeat: no-repeat;
+    background-position: center;
+}
