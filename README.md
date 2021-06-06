@@ -1,3 +1,3 @@
 # maratona-discover
 
-Maratona Discover da Rocketseat
+>Maratona Discover da Rocketseat
