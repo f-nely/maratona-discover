@@ -49,5 +49,16 @@ console.log(inputClasse.getAttribute('class'));
 attributeClass.removeAttribute('class');
 console.log(inputClasse.getAttribute('class'));
 
+// alterando estilos
+const elementB = document.querySelector('body');
+//elementB.style.backgroundColor = "#f9f3d2";
+console.log(elementB.style.backgroundColor);
+
+// alterando estilos - classList
+const elementC = document.querySelector('body');
+elementC.classList.add('active', 'green');
+console.log(elementC.classList);
+elementC.classList.remove('active');
+elementC.classList.toggle('active');
 
 
