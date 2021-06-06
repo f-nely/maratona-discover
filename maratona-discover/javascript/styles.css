@@ -1,0 +1,12 @@
+.active {
+    color: #0e6e79;
+}
+
+.green {
+    background-color: #32a852;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text] {
+    color: cadetblue;
+}
