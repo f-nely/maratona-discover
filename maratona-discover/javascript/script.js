@@ -61,4 +61,45 @@ console.log(elementC.classList);
 elementC.classList.remove('active');
 elementC.classList.toggle('active');
 
+// navegando pelos elementos - parentNode, parentElement
+const body = document.querySelector("body");
+const element_h1 = document.querySelector("h1");
+console.log("--------------parentNode--------------------");
+console.log(body.parentNode);
+console.log("--------------parentElement------------------");
+console.log(body.parentElement);
+console.log("--------------parentNode--------------------");
+console.log(element_h1.parentNode);
+
+// navegando pelos elementos - childNodes, children
+const el = document.querySelector("body");
+console.log("--------------childNodes---------------------");
+console.log(el.childNodes);
+console.log("--------------children------------------------");
+console.log(el.children);
+// firstChild, firstElementChild
+const el2 = document.querySelector("ul");
+console.log("--------------firstElementChild----------------");
+console.log(el2.firstElementChild);
+console.log("--------------firstChild----------------");
+console.log(el2.firstChild);
+// lastChild, lastElementChild
+console.log("--------------lastElementChild----------------");
+console.log(el.lastElementChild);
+// nextSibling, nextElementSibling
+const el3 = document.querySelector("header");
+console.log("--------------nextElementSibling----------------");
+console.log(el3.nextElementSibling);
+
+
+
+
+
+
+ 
+
+
+
+
+
 
