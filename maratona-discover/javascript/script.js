@@ -91,6 +91,20 @@ const el3 = document.querySelector("header");
 console.log("--------------nextElementSibling----------------");
 console.log(el3.nextElementSibling);
 
+// criando e adicionando elementos
+const div = document.createElement("div");
+div.innerText = "Olá devs!";
+
+// createElement
+//const bodyE = document.querySelector("body");
+//bodyE.append(div);
+//bodyE.prepend(div);
+// insertBefore
+const bodyI = document.querySelector("body");
+const script = bodyI.querySelector("script");
+bodyI.insertBefore(div, script);
+
+
 
 
 
