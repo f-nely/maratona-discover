@@ -1,0 +1,24 @@
+/* Element selector */
+h1 {
+    color: #7fff;
+    font-family: Tahoma;
+}
+
+p {
+    font-size: 18px;
+    line-height: 5px;
+}
+
+/* ID Selector */
+#title {
+    color: palegreen;
+}
+#content {
+    /* color: rgb(136, 118, 85); */
+    border: none;
+}
+
+/* Class Selector */
+.red {
+    color: red;
+}
