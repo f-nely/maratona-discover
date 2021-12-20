@@ -1,0 +1,124 @@
+/* seletores */
+[title] {
+    color: orange;
+}
+
+.content:hover {
+    color: #69DFDF;
+    text-decoration: underline;
+}
+
+/* combinators */
+body article h2 {
+    color: #f06f05;
+}
+
+/* child_combinator */
+ul > ul > li {
+    color: #2863a7;
+}
+
+/* sibling_combinator */
+h1 + p {
+    color: #8fb2da;
+}
+
+h1 ~ p {
+    color: #31E8D3;
+}
+
+button + button {
+    margin-left: 32px;
+}
+
+.btn {
+    background-color: #FFF;
+    color: #315CE8;
+    border: 1px solid #315CE8;
+    padding: 8px 10px;
+}
+
+.btn:hover {
+    background-color: #315CE8;
+    color: #FFF;
+    border: 1px solid #315CE8;
+    padding: 8px 10px;
+}
+
+/* ultilizando_combinator */
+
+ul > li[class='item'] {
+    list-style-type: square;
+}
+
+/* ultilizando_combinator */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* nth_of_type */
+article p:nth-of-type(3) {
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+/* nth_child */
+article h3:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+    color: #315CE8;
+}
+
+/* nth_child_odd_e_even */
+ul li:nth-child(odd) {
+    color: #000;
+    background-color: #EEE;
+}
+
+ul li:nth-child(even) {
+    color: #999;
+}
+
+/* hover_focus */
+.link-btn a {
+    background-color: #32A852;
+    color: #FFF;
+    border: 1px solid #32A852;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #FFF;
+    border: 1px solid #32A852;
+    color: #32A852;
+}
+
+.input {
+    padding: 4px;
+}
+
+#name:focus {
+    border-color: #327BA8;
+    outline: none;
+}
+
+
+/* disabled_required */
+input:disabled {
+    background-color: #8fb2da;
+    color: #FFF;
+}
+
+input:required {
+    color: #999;
+}
+
+/* pseudo-elements */
+ul li .clear-elements {
+    color: #000 !important;
+    background-color: #FFF !important;
+}
+
