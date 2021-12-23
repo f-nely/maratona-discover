@@ -1,0 +1,23 @@
+/* font_family */
+.quote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.size {
+    font-size: 12px;
+}
+
+/* font_weight */
+.bold {
+    font-weight: bolder;
+}
+
+/* font_style */
+.italic {
+    font-style: italic;
+}
+
+/* wet_fonts */
+.lato {
+    font-family: Lato, sans-serif;
+}
