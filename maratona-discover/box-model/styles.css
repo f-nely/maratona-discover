@@ -23,9 +23,32 @@
 }
 
 /* margin */
-.container {
+.container, section {
     border: 1px solid #d44d53;
     width: 100px;
     height: 100px;
-    margin: 8px 0;
+}
+
+.container {
+    margin-bottom: 8px;
+}
+
+section {
+    margin-top: 8px; /* margin collapsing (top se ajunta ao bottom)*/
+} 
+
+/* padding */
+.container-padding, .section-padding {
+    border: 1px solid #0394FC;
+    padding: 10px 2em 8px;
+}
+
+/* border_outline */
+.conteudo {
+    background-color: #32A852;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    border: 10px groove #d44d53;
+    outline: 2px solid rgb(184, 184, 112);
 }
