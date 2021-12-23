@@ -18,6 +18,17 @@
 }
 
 /* wet_fonts */
-.lato {
+.lato p {
     font-family: Lato, sans-serif;
+    /* font-variant: small-caps; */
+    /* font-stretch: expanded; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 4px; */
+    /* espaços entre linhas */
+    /* line-height: 1.6; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline dashed #008080; */
+    /* text-align: right; */
+    text-shadow: 1px 1px 1px red,
+                 2px 2px 1px green;
 }
