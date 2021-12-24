@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+/* background_color/ background_image */
+/* .header {
+    height: 270px;
+    padding: 16px;
+    border: 5px dashed rgb(60, 255, 190);
+    background-color: rgb(40, 170, 255, 0.6);
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: padding-box;
+} */
+
+/* background_attachment */
+main {
+    background-color: rgb(40, 170, 255, 0.6);
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: padding-box;
+    /* background-attachment: fixed; */
+    color: #FFF;
+}
+
+/* gradient */
+.content {
+    /* background: linear-gradient(180deg, rgb(40, 170, 255), rgb(80, 255, 90)); */
+    background: radial-gradient(rgb(40, 170, 255), rgb(80, 255, 90));
+    width: 400px;
+}
+
