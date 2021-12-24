@@ -1,0 +1,48 @@
+/* color_name */
+.color-name {
+    color: cadetblue;
+}
+
+#color-h1 {
+    color: currentColor;
+}
+
+.color-name p {
+    color: greenyellow;
+}
+
+/* hexadecimal */
+.color-hexa {
+    color: #3377FF;
+}
+
+#h1-hexa {
+    color: #2AF8;
+}
+
+/* rgb */
+.color-rgb {
+    color: rgb(105, 200, 255);
+}
+#h1-rgb {
+    color: rgb(200, 100, 50, 0.6);
+}
+
+/* hsl */
+.color-hsl {
+    color: hsl(180, 100%, 50%, 80%);
+}
+
+#h1-hsl {
+    color: hsl(20, 90%, 50%);
+}
+
+/* global_value */
+div {
+    color: rgb(50, 200, 180);
+}
+
+h1 {
+    /* color: inherit; */
+    color: initial;
+}
