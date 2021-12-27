@@ -49,3 +49,15 @@
     border: 1px solid #CCC;
     width: 200px;
 }
+
+/* flex_flow */
+.box2 {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    border: 1px dashed #77BBDD;
+}
+
+.box2 .item {
+    border: 1px solid #CCC;
+    width: 200px;
+}
