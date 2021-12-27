@@ -29,3 +29,10 @@
     border: 1px solid;
     flex: 1;
 }
+
+/* direcao_itens */
+.container3 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 80vh;
+}
