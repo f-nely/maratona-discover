@@ -16,3 +16,16 @@
     justify-content: flex-end;
     height: 100vh;
 }
+
+/* flex_sizing */
+.container2 {
+    display: flex;
+    border: 1px solid #008080;
+    height: 80vh;
+}
+
+.container2 .item {
+    background-color: #6495ED;
+    border: 1px solid;
+    flex: 1;
+}
