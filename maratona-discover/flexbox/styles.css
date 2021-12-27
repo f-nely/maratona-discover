@@ -88,3 +88,14 @@
     border: 1px solid #DDD;
 }
 
+/* espaco_entre_os_elementos */
+.box5 {
+    display: flex;
+    gap: 4px;
+    border: 1px dotted #5ab4b4;
+}
+
+.box5 .item {
+    border: 1px solid #DDD;
+}
+
