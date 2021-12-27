@@ -1,9 +1,18 @@
+/* index */
 .content {
     display: flex;
     /* justify-content: space-around; */
     flex-direction: column;
 }
 
-.item:nth-child(1) {
+.content .item:nth-child(1) {
     order: 1;
+}
+
+/* eixo_principal_cruzado */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
 }
