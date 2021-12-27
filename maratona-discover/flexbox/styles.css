@@ -36,3 +36,16 @@
     flex-direction: column-reverse;
     height: 80vh;
 }
+
+/* multiplas_linhas */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px dashed #77BBDD;
+}
+
+.box .item {
+    border: 1px solid #CCC;
+    width: 200px;
+}
