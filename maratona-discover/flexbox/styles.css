@@ -114,3 +114,24 @@
 .box6 .item:nth-child(1) {
     width: 25px;
 }
+
+/* crescimento_adaptacao_itens */
+.box7 {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed #FFAA89;
+    height: 150px;
+}
+
+.box7 .item {
+    border: 1px solid #98D1B9;
+}
+
+.box7 .item:nth-child(1) {
+    flex-grow: 2;
+}
+
+.box7 .item:nth-child(2),
+.box7 .item:nth-child(3) {
+    flex-grow: 1;
+}
