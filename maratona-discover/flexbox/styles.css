@@ -205,3 +205,29 @@ main section:nth-child(3) {
     background: #FFB6C1;
     flex: 1 0;
 }
+
+/* ordenando_itens */
+.box10 {
+    display: flex;
+    border: 1px dotted rgba(41, 80, 57, 0.467);
+}
+
+.box10 .item {
+    border: 1px solid #999;
+}
+
+.box10 .item:nth-child(1) {
+    order: 1;
+}
+
+.box10 .item:nth-child(2) {
+    order: 0;
+}
+
+.box10 .item:nth-child(3) {
+    order: 0;
+}
+
+.box10 .item:nth-child(4) {
+    order: -1;
+}
