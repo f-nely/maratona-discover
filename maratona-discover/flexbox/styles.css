@@ -153,3 +153,15 @@
 .box8 .item:nth-child(3) {
     flex-shrink: 0;
 }
+
+/* atalho_flex */
+/* shorthand - flex-grow flex-shrink flex-basis */
+.box9 {
+    display: flex;
+    border: 1px dotted #58FF;
+}
+
+.box9 .item {
+    border: 1px solid #86EE;
+    flex: 0 40px;
+}
